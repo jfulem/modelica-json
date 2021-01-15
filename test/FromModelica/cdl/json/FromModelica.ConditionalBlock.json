@@ -8,7 +8,6 @@
       "parameters": [
         {
           "className": "Boolean",
-          "type": "Boolean",
           "name": "enaBlo",
           "value": "true",
           "comment": "Flag for enabling instance",
@@ -48,6 +47,9 @@
           "name": "u",
           "comment": "Input connector",
           "enable": "enaBlo",
+          "__cdl": {
+            "default": "0"
+          },
           "placement": {
             "transformation": {
               "extent": [

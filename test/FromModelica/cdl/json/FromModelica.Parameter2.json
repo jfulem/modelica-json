@@ -8,7 +8,6 @@
       "parameters": [
         {
           "className": "Real",
-          "type": "Real",
           "name": "myPar1",
           "value": "1",
           "comment": "Some comment",
@@ -21,7 +20,6 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParNoValue",
           "comment": "Some comment",
           "annotation": {
@@ -33,18 +31,11 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParMin",
           "comment": "Some comment",
           "min": {
             "value": "0"
           },
-          "modifications": [
-            {
-              "value": "0",
-              "isFinal": false
-            }
-          ],
           "annotation": {
             "dialog": {
               "tab": "General",
@@ -54,18 +45,11 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParMax",
           "comment": "Some comment",
           "max": {
             "value": "0"
           },
-          "modifications": [
-            {
-              "value": "0",
-              "isFinal": false
-            }
-          ],
           "annotation": {
             "dialog": {
               "tab": "General",
@@ -75,18 +59,11 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParUnit",
           "comment": "Some comment",
           "unit": {
             "value": "\"K\""
           },
-          "modifications": [
-            {
-              "value": "\"K\"",
-              "isFinal": false
-            }
-          ],
           "annotation": {
             "dialog": {
               "tab": "General",
@@ -96,7 +73,6 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParInGroup",
           "comment": "Some comment",
           "annotation": {
@@ -108,7 +84,6 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParInTab",
           "comment": "Some comment",
           "annotation": {
@@ -120,7 +95,6 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParInTabInGroup1",
           "comment": "Some comment 1",
           "annotation": {
@@ -132,7 +106,6 @@
         },
         {
           "className": "Real",
-          "type": "Real",
           "name": "myParInTabInGroup2",
           "comment": "Some comment 2",
           "annotation": {
